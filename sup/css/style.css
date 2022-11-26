@@ -777,6 +777,9 @@ img {
         width: 100%;
     }
 
+    .footer__menu-list {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 540px) {
@@ -788,7 +791,9 @@ img {
     .technology__title {
         font-size: 35px;
     }
-
+    .footer__menu-list {
+        gap: 20px;
+    }
 }
 
 @media (max-width: 414px) {
@@ -798,6 +803,10 @@ img {
 
     .header__content {
         z-index: 5;
+    }
+
+    .footer__logo svg {
+        width: 200px;
     }
 
 }
@@ -819,4 +828,9 @@ img {
     .technology__list {
         padding-top: 40px;
     }
+
+    .footer__title {
+        font-size: 40px;
+    }
+
 }
